@@ -36,6 +36,7 @@ body {
 /* positioned photo and ul beside each other */
 .aside {
     display: flex;
+    padding-left: 18px;
 
 }
 .prep-wine {
@@ -103,4 +104,18 @@ img {
     font-size: 22px;
     padding-top: 8px;
     width: 900px;
+}
+.proper-fit {
+    width: 900px;
+}
+
+.this {
+    list-style-type: none;
+    font-size: 22px;
+    padding-left: 18px;
+   }
+
+   .aside2 {
+    display: flex;
+    flex-direction: column;
 }
